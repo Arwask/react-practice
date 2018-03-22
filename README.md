@@ -10,3 +10,5 @@
 * `create-react-app hello-world`
 * `cd hello-world`
 * `npm start`
+
+## 2. 'jsx' - Simple Hello program using jsx
