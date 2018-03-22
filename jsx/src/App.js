@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 
-let makeNameString = ({ firstName, lastName }) => {
-  return firstName + ' ' + lastName;
-};
-
-const user = {
-  firstName: 'Arwa',
-  lastName: 'Kuterwadliwala'
-};
-
-const element = <h1> Hello, {makeNameString(user)}!</h1>;
-
 class App extends Component {
+  makeNameString({ firstName, lastName }) {
+    return firstName + ' ' + lastName;
+  }
+
+  user = {
+    firstName: 'Arwa',
+    lastName: 'Kuterwadliwala'
+  };
+
+  element = <h1> Hello, {this.makeNameString(this.user)}!</h1>;
   render() {
-    return element;
+    return this.element;
   }
 }
 
