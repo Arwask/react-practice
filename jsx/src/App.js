@@ -11,8 +11,9 @@ class App extends Component {
     lastName: 'Kuterwadliwala'
   };
 
-  element = <h1> Hello, {this.makeNameString(this.user)}!</h1>;
+  element = <h1> Hello, {this.makeNameString(this.user)}!</h1>; //this.user ----> because the user variable is defined inside this component
   render() {
+    //es6 syntax ---- instead of saying let render : () => {}, we say render() {//put the functionalities in here}
     return this.element;
   }
 }
