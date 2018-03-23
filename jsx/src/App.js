@@ -11,9 +11,14 @@ class Timer extends Component {
   }
   componentDidMount() {
     // you can only change the state inside a componentDidMount method. This method is called right after the component is mounted
-    setInterval(() => {
+    this.timerID = setInterval(() => {
       this.setState({ time: new Date().toLocaleTimeString() });
     }, 1000);
+  }
+
+  componentWillUnmount() {
+    // this will tear down the timer when the component is unmounted
+    clearInterval(this.timerID);
   }
   render() {
     return <div>Time is: {this.state.time}</div>;
