@@ -11,4 +11,10 @@
 * `cd hello-world`
 * `npm start`
 
-## 2. 'jsx' - Simple Hello program using jsx
+## 2. 'jsx' - Display Timer jsx
+
+### Things I tried to learn in this project
+
+* Implementation of two components.
+* How to inherit a component and its state and properties.
+* How to render a changed state in a component.
