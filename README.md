@@ -18,3 +18,11 @@
 * Implementation of two components.
 * How to inherit a component and its state and properties.
 * How to render a changed state in a component.
+
+## 2. Tic-Tac-Toe Game
+
+### Things I tried to learn in this project
+
+* Implementation of multiple components
+* changing states multiple times
+* Learn from Reactjs tutorial
