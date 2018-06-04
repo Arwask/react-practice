@@ -1,0 +1,44 @@
+.parallax {
+  background-image: url('../bg.jpg');
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: slidein 3s linear 1s infinite alternate;
+  height: 80px;
+}
+
+.App-header {
+  background: transparent;
+  height: 100px;
+  padding: 20px;
+  color: rgb(226, 111, 111);
+}
+
+.my-font {
+  font-family: 'Italianno', cursive;
+  font-size: 1.2em;
+}
+.App-title {
+  font-size: 3em;
+}
+
+.App-intro {
+  font-size: 2em;
+}
+@keyframes slidein {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}

@@ -1,0 +1,16 @@
+.about {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('./paper.jpg');
+  width: 99.9%;
+  padding: 10px;
+  margin: auto;
+}
+
+.profilePicture {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  display: flex;
+  margin: auto;
+}
